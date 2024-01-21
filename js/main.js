@@ -9,7 +9,6 @@ function raf(time) {
   lenis.raf(time)
   requestAnimationFrame(raf)
 }
-
 requestAnimationFrame(raf)
 
 
@@ -17,6 +16,8 @@ requestAnimationFrame(raf)
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(ScrollToPlugin);
 
+
+/* 📍 split */
 Splitting();
 
 const stage = document.querySelector('.stage');
